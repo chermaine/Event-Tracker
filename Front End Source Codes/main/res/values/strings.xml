@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">496 Final Hybrid Project</string>
+    <string name="app_name_2">Event Tracker</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+
+    <!-- Sign up page -->
+    <string name="signup_page">New User Sign Up: </string>
+    <string name="first_name">First Name </string>
+    <string name="last_name">Last Name </string>
+    <string name="email">Email</string>
+    <string name="show_password">Show password</string>
+    <string name="submit">Submit</string>
+
+    <!-- User Home Page -->
+    <string name="hi">Hi </string>
+    <string name="comma">, </string>
+    <string name="event_list">Here are your current events: </string>
+
+    <!-- Menu -->
+    <string name="user_profile">Profile</string>
+    <string name="new_event">Add New Event</string>
+    <string name="show_history">Show Past Events</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+
+    <!-- New Event -->
+    <string name="add_event_page">Add New Event: </string>
+    <string name="event_name">Event Name</string>
+    <string name="event_date">Date </string>
+    <string name="event_time">Time </string>
+    <string name="event_all_day">All Day Event</string>
+    <string name="event_description">Description</string>
+    <string name="date_format">(YYYY-MM-DD)</string>
+    <string name="time_format">(HH:MM)</string>
+
+    <!-- User Profile -->
+    <string name="update_profile">Update/Edit Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_user">Delete Account</string>
+
+    <!-- Change Password -->
+    <string name="current_password">Enter Current Password</string>
+    <string name="new_password">Enter New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+
+    <string name="history_page">Here are your past events:</string>
+    <string name="clear_history">Clear All History</string>
+    <string name="event_page">Event Details: </string>
+    <string name="edit_event">Update/Edit Event</string>
+    <string name="delete_event">Delete Event</string>
+
+    <!-- Update Event -->
+    <string name="update_event_page">Update/Edit Event</string>
+
+    <!-- Strings related to facebook login -->
+    <string name="facebook_app_id">504732583207456</string>
+    <string name="fb_login_protocol_scheme">fb504732583207456</string>
+
+</resources>

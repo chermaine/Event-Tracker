@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/update_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_profile"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:padding="20dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/first_name"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/first_name"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@id/update_page"
+        />
+
+    <EditText
+        android:id="@+id/update_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_page"
+        android:layout_toRightOf="@id/first_name"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:padding="5dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/last_name"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/last_name"
+        android:layout_below="@id/first_name"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/update_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_first_name"
+        android:layout_toRightOf="@id/last_name"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight ="30dp"
+        android:padding="5dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:layout_below="@id/last_name"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/update_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_last_name"
+        android:layout_toRightOf="@id/username"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:padding="5dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:layout_below="@id/username"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/update_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_username"
+        android:layout_toRightOf="@id/email"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:padding="5dp"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/update_profile_submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_below="@id/email"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/update_profile_cancel_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_profile_submit_button"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="@string/cancel"
+        android:textColor="@color/red"
+        />
+</RelativeLayout>
